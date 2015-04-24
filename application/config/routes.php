@@ -65,7 +65,11 @@ $route['admin/tipodoc/(:any)'] = 'admin_tipodoc/index/$1'; //$1 = page number
 $route['admin/dbinport'] = 'admin_dbinport';
 
 $route['admin/productos'] = 'admin_productos/index';
+
 $route['admin/trabajadores'] = 'admin_trabajadores/index';
+
+$route['admin/ventas'] = 'admin_ventas/index';
+
 
 
 /* End of file routes.php */
